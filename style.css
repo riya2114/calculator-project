@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to top right,rgb(199, 44, 83),rgb(182, 177, 179));
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+h1{
+    color: white;
+    font-size: 1.9rem;
+    font-family: sans-serif;
+    text-shadow:2px 0 rgb(238, 22, 14);
+}
+.mycalculator{
+    margin-top: 150px;
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+    height: 400px;
+    background-color: black;
+}
+#button{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+}
+.arithmetic{
+    width: 45px;
+    height: 45px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: grey;
+    color: white;
+     font-size: 1.4rem;
+     box-shadow: 0 0 2px 1px rgb(161, 157, 157);
+     margin-top: 15px;
+}
+.module{
+    width: 45px;
+    height: 45px;
+    border-radius: 3px;
+    font-size: 1.4rem;
+    color: white;
+    background-color: grey;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 2px 1px rgb(161, 157, 157);
+}
+.module:hover{
+    background-color: rgb(73,70,70);
+} 
+.arithmetic:hover{
+    background-color: rgb(73, 70, 70);
+    border: none;
+    box-shadow: rgb(73, 70, 70);
+}
+.point{
+    width: 45px;
+    height: 45px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 2rem;
+    box-shadow: 0 0 2px 1px white;
+}
+.point:hover{
+    background-color: rgb(202,198,198);
+    border: none;
+}
+.int{
+    width: 45px;
+    height: 45px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    box-shadow: 0 0 2px 1px white;
+}
+.int:hover{
+    background-color: rgb(202, 198, 198);
+}
+.symbol{
+    width: 45px;
+    height: 45px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: rgb(238, 22, 14);
+    color: white;
+    font-size: 1.3rem;
+    /* margin-top: 10px; */
+    box-shadow: 0 0 4px 1px  rgb(241, 80, 59);
+}
+.symbol:hover{
+    background-color: rgba(255, 255, 255, 0.959);
+    color: rgb(250, 10, 10);
+    border: none;
+    box-shadow: 0 0 4px 1px rgb(235, 215, 215);
+}
+#calculator{
+    width: 100%;
+    height: 40px;
+    border-radius: 2px;
+    border: none;
+    font-size: large;
+    outline: none;
+    border: none;
+}
